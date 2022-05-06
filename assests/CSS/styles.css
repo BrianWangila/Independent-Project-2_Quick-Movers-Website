@@ -1,7 +1,61 @@
  * {
    padding: 0;
    margin: 0;
+   font-family: poppins; /*Font type: Poppins,  Actor, Adamina */
+ }
+ 
+ h1 {
+   color: #FAFF00;
+   margin: 40px 0 30px;
+   font-size: xx-large;
  }
  #home {
    border: 2px solid red;
+   background-image: url("../Images/image\ 0.png");
+   height: 45vh;
+   background-size: cover;
+   background-position: center center;
+  }
+ ul {
+   display: flex;
+   margin-top: 30px;
+   justify-content: end;
+   margin-right: 100px;
+   color: white;
  }
+ ul > li {
+   display:inline-block;
+   padding: 10px;
+   margin: 0 15px 0;
+
+ }
+ ul > button {
+   display: inline-block;
+   list-style: none;
+   margin-right: 25px;
+   border: none;
+   border-radius: 7px;
+ }
+ ul > button > li {
+   padding: 0 20px 0 20px; 
+ }
+ #button1 {
+   background-color: #FAFF00;
+ }
+#button2 {
+  background-color: black;
+  color: white;
+}
+ .home {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 47%;
+ }
+ .home > h4 {
+   color: white;
+   font-weight: 100;
+   font-size: large;
+ 
+
+ 
