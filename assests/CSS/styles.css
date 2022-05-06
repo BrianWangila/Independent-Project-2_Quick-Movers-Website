@@ -11,8 +11,9 @@
    margin: 40px 0 30px;
    font-size: xx-large;
  }
- #home {
-   border: 2px solid red;
+ #home, {
+   padding-top: 20px;
+   padding-left: 10px;
    background-image: url("../Images/image\ 0.png");
    height: 45vh;
    background-size: cover;
@@ -60,7 +61,6 @@
    font-size: large;
  }
  .hustle {
-   border: 2px solid red;
    display: flex;
    margin: 35px 0;
    padding: 15px 0 15px;
@@ -82,7 +82,6 @@
    height: 400px
  }
  .topMovers {
-   border: 2px solid red;
    padding: 60px 60px 40px 60px;
    background-color: rgb(233, 231, 231);
    margin-bottom: 35px;
@@ -103,9 +102,9 @@
   margin: 10px;
 }
 footer {
-  border: 2px solid red;
   background-color: rgb(8, 1, 1);
   color: white;
+  padding: 20px 0 20px;
 }
 .head {
   font-size: larger;
@@ -135,4 +134,33 @@ footer {
   font-size: small;
   font-weight: lighter;
   padding: 5px;
+}
+#home2 {
+  background-color: rgb(15, 2, 2);
+  min-height: 160px;
+}
+#home2 button {
+  margin-left: 15px;
+  background-color: #FFAC12;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+nav > #ul2 {
+  margin-top: 0px;
+  padding-top: 10px;
+  font-size: small;
+}
+.modern {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 50px;
+  padding-right: 50px;
+}
+.modern p {
+  font-size: x-small;
+  padding-top: 5px;
+  text-align: right;
 }
