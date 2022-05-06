@@ -107,16 +107,32 @@ footer {
   background-color: rgb(8, 1, 1);
   color: white;
 }
+.head {
+  font-size: larger;
+  margin: 50px 0 80px 10px;
+}
 .contactInfo {
   list-style: none;
   display: flex;
   justify-content: space-between;
   margin: 50px 50px 50px 10px;
 }
-.contactInfo .icon {
-  display: inline-block;
+.contactInfo > .icon {
+  display: flex;
+  align-items: center;
+}
+.contactInfo > .icon > li {
+  margin-right: 20px;
 }
 .contactInfo > .column {
   display: flex;
-
+  justify-content: space-between;
+}
+#column {
+  padding: 0 0 0 50px;
+}
+.column p {
+  font-size: small;
+  font-weight: lighter;
+  padding: 5px;
 }
