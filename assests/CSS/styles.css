@@ -67,6 +67,17 @@
    margin: 100px 30px;
    width: 50%;
  }
-
+ .hustle .hustle-text button {
+   margin-top: 30px;
+   color: #FAFF00;
+   background-color: black;
+   border: none;
+   padding: 12px 20px;
+   border-top-right-radius: 12px;
+ }
+ #coach {
+   width: 300px;
+   height: 350px
+ }
 
  
