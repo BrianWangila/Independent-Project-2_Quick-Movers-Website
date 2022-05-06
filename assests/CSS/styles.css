@@ -83,6 +83,11 @@
  }
  .topMovers {
    border: 2px solid red;
+   padding: 60px;
+   background-color: rgb(233, 231, 231);
+ }
+ .topMovers h2 {
+   margin-bottom: 100px;
  }
 .row {
   display: flex;
