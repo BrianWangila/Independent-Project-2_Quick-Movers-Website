@@ -108,9 +108,15 @@ footer {
   color: white;
 }
 .contactInfo {
+  list-style: none;
   display: flex;
-
+  justify-content: space-between;
+  margin: 50px 50px 50px 10px;
+}
+.contactInfo .icon {
+  display: inline-block;
 }
 .contactInfo > .column {
   display: flex;
+
 }
