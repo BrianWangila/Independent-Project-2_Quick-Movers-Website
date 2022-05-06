@@ -56,6 +56,17 @@
    color: white;
    font-weight: 100;
    font-size: large;
- 
+ }
+ .hustle {
+   border: 2px solid red;
+   display: flex;
+   margin: 35px 0;
+   
+ }
+ .hustle > .hustle-text {
+   margin: 100px 30px;
+   width: 50%;
+ }
+
 
  
