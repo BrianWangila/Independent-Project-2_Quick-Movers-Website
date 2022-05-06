@@ -104,6 +104,13 @@
 }
 footer {
   border: 2px solid red;
-  background-color: dark rgb(26, 4, 4);
+  background-color: rgb(8, 1, 1);
+  color: white;
+}
+.contactInfo {
+  display: flex;
 
+}
+.contactInfo > .column {
+  display: flex;
 }
