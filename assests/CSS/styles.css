@@ -83,7 +83,7 @@
  }
  .topMovers {
    border: 2px solid red;
-   padding: 60px;
+   padding: 60px 60px 40px 60px;
    background-color: rgb(233, 231, 231);
  }
  .topMovers h2 {
@@ -92,7 +92,10 @@
 .row {
   display: flex;
 }
-
+.row button {
+  margin-right: 20px;
+  background-color: rgb(233, 231, 231);
+}
 .work img {
   height: 150px;
   width: 200px;
