@@ -192,7 +192,7 @@ nav > #ul2 {
 }
 .room,  .listings{
   margin-left: 20px;
-  width: 60%;
+  width: 70%;
 }
 .images > img {
   height: 50px;
@@ -272,20 +272,23 @@ nav > #ul2 {
   margin-top: 50px;
   padding-bottom: 20px;
 }
-.listingImages >button {
-  background-color: white;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
 .listingImages table td {
   padding-left: 25px;
   padding-top: 6px ;
   padding-bottom: 6px;
+  border: 1px solid rgb(248, 245, 245);
 }
 .listingImages p {
   padding: 10px;
   text-align: left;
   margin-left: 20px;
   font-weight: 400;
+}
+.white {
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: -10px;
+  padding-top: 10px;
 }
 
