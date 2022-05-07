@@ -270,6 +270,13 @@ nav > #ul2 {
 #content ul li {
   margin: 20px;
 }
+.features .ticks {
+  border-radius: 50%;
+  position: relative; 
+  background-color:#FFAC12;
+  border: 1px solid #FFAC12;
+  margin-right: 5px;
+}
 .listings >.listingImages img {
   height: 160px;
   width: 220px;
