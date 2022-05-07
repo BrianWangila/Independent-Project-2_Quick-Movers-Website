@@ -171,13 +171,47 @@ section {
 .kayley {
   display: flex;
 }
-.kayley >.image > img {
+.kayley > .room >.image > img {
   height:350px ;
   width: 400px;
   margin: 20px;
 }
-.kayley > .form {
+.kayley > .room >.form {
   margin: 20px;
+  margin-left: 5px;
   background-color: white;
- 
+  border-radius: 15px;
 }
+.form > .inside {
+  margin: 15px;
+}
+.form > .inside > .viewer {
+  background-color: rgb(233, 231, 231);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: small;
+}
+ .form >.inside >.viewer p {
+   font-size: xx-small;
+   margin-top: 3px;
+   color: #FFAC12;
+ }
+ #form, #message {
+   padding: 10px;
+   border: ;
+   margin: 3px 0 10px;
+   border-radius: 5px;
+ }
+ #message {
+   padding: 20px 10px;
+ }
+ #submit {
+   padding: 10px;
+   text-align: center;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: black;
+   color: #FFAC12;
+   border-top-right-radius: 15px;
+ }
