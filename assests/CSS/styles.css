@@ -173,9 +173,23 @@ section {
 }
 .kayley > .room >.image > img {
   height:350px ;
-  width: 400px;
-  margin: 20px;
+  width: 430px;
+  margin: 20px 0;
 }
+.room {
+  margin-left: 20px;
+}
+.images > img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+table, tr, td {
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+table 
 .kayley >.form {
   margin: 20px;
   margin-left: 5px;
@@ -216,3 +230,4 @@ section {
    color: #FFAC12;
    border-top-right-radius: 15px;
  }
+ 
