@@ -92,7 +92,7 @@
 .row {
   display: flex;
 }
-.row button {
+.row button, .listings button {
   margin-right: 20px;
   background-color: rgb(233, 231, 231);
 }
@@ -167,6 +167,7 @@ nav > #ul2 {
 }
 section {
   background-color: rgb(233, 231, 231);
+  padding-bottom: 25px;
 }
 .kayley {
   display: flex;
@@ -176,7 +177,7 @@ section {
   width: 430px;
   margin: 20px 0;
 }
-.room {
+.room,  .listings{
   margin-left: 20px;
 }
 .images > img {
@@ -248,4 +249,8 @@ table, .description, .features {
  .description, .content ul {
    color: black;
    margin-bottom: 25px;
+ }
+ .listings >.listingImages img {
+   height: 160px;
+   width: 180px;
  }
