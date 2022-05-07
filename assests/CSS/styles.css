@@ -138,7 +138,6 @@ footer {
 #home2 {
   background-color: rgb(15, 2, 2);
   min-height: 160px;
-  margin-bottom: 25px;
 }
 #home2 button {
   margin-left: 15px;
@@ -165,9 +164,9 @@ nav > #ul2 {
   padding-top: 5px;
   text-align: right;
 }
-section {
+#body2 {
   background-color: rgb(233, 231, 231);
-  padding-bottom: 25px;
+  padding: 10px 0 10px 50px;
 }
 .kayley {
   display: flex;
@@ -220,37 +219,40 @@ table, .description, .features {
   padding: 5px;
   font-size: small;
 }
- .form >.inside >.viewer p {
-   font-size: xx-small;
-   margin-top: 3px;
-   color: #FFAC12;
- }
- #form, #message {
-   padding: 10px;
-   border: 1px solid lightgray;
-   margin: 3px 0 10px;
-   border-radius: 5px;
- }
- #message {
-   padding: 20px 10px;
- }
- #submit {
-   padding: 10px;
-   text-align: center;
-   padding-left: 50px;
-   padding-right: 50px;
-   background-color: black;
-   color: #FFAC12;
-   border-top-right-radius: 15px;
- }
- .description, .features, .text, .description h3, .features h3 {
-   padding: 20px;
- }
- .description, .content ul {
-   color: black;
-   margin-bottom: 25px;
- }
- .listings >.listingImages img {
-   height: 160px;
-   width: 180px;
- }
+.form >.inside >.viewer p {
+  font-size: xx-small;
+  margin-top: 3px;
+  color: #FFAC12;
+}
+#form, #message {
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin: 3px 0 10px;
+  border-radius: 5px;
+}
+#message {
+  padding: 20px 10px;
+}
+#submit {
+  padding: 10px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: black;
+  color: #FFAC12;
+  border-top-right-radius: 15px;
+}
+.description, .features, .text, .description h3, .features h3 {
+  padding: 20px;
+}
+.description, .content ul {
+  color: black;
+  margin-bottom: 25px;
+}
+.listings >.listingImages img {
+  height: 160px;
+  width: 180px;
+}
+.listings, .listingImages {
+  margin-top: 50px;
+}
