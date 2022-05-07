@@ -176,11 +176,12 @@ section {
   width: 400px;
   margin: 20px;
 }
-.kayley > .room >.form {
+.kayley >.form {
   margin: 20px;
   margin-left: 5px;
   background-color: white;
   border-radius: 15px;
+  max-height: 350px;
 }
 .form > .inside {
   margin: 15px;
