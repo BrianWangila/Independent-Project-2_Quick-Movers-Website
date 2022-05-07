@@ -185,7 +185,7 @@ section {
   margin-right: 10px;
 }
 table, tr, td {
-  padding: 15px 40px;
+  padding: 10px 36px;
   border: 1px solid lightgray;
   border-collapse: collapse;
 }
@@ -195,8 +195,12 @@ table, tr, td {
 }
 table {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
   max-width: 100px;
+}
+.details  h3 {
+  margin: 20px 0 20px;
+  font-weight: 500;
 }
 .kayley >.form {
   margin: 20px;
