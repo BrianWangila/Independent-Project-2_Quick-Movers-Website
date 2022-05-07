@@ -19,18 +19,17 @@
    background-size: cover;
    background-position: center center;
   }
- ul {
+ nav > ul {
    display: flex;
    margin-top: 30px;
    justify-content: end;
    margin-right: 100px;
    color: white;
  }
- ul > li {
+ nav > ul > li {
    display:inline-block;
    padding: 10px;
    margin: 0 15px 0;
-
  }
  ul > button {
    display: inline-block;
@@ -182,7 +181,7 @@ nav > #ul2 {
   background-color: rgb(233, 231, 231);
   padding: 10px 0 10px 50px;
 }
-.kayley {
+.kayley, .content {
   display: flex;
 }
 .kayley > .room >.image > img {
@@ -263,6 +262,14 @@ nav > #ul2 {
   color: black;
   margin-bottom: 25px;
 }
+.content, .content ul {
+  justify-content: space-between;
+  margin: 0 50px 10px;
+  list-style: none;
+}
+#content ul li {
+  margin: 20px;
+}
 .listings >.listingImages img {
   height: 160px;
   width: 220px;
@@ -275,7 +282,7 @@ nav > #ul2 {
   padding-left: 25px;
   padding-top: 6px ;
   padding-bottom: 6px;
-  border: 1px solid rgb(248, 245, 245);
+  border: 1px solid rgb(248, 246, 246);
 }
 .listingImages p {
   padding: 10px;
