@@ -138,6 +138,7 @@ footer {
 #home2 {
   background-color: rgb(15, 2, 2);
   min-height: 160px;
+  margin-bottom: 25px;
 }
 #home2 button {
   margin-left: 15px;
@@ -163,4 +164,20 @@ nav > #ul2 {
   font-size: x-small;
   padding-top: 5px;
   text-align: right;
+}
+section {
+  background-color: rgb(233, 231, 231);
+}
+.kayley {
+  display: flex;
+}
+.kayley >.image > img {
+  height:350px ;
+  width: 400px;
+  margin: 20px;
+}
+.kayley > .form {
+  margin: 20px;
+  background-color: white;
+ 
 }
