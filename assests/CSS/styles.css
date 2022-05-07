@@ -199,7 +199,7 @@ nav > #ul2 {
   width: 50px;
   margin-right: 10px;
 }
-table, tr, td {
+.details > table, tr, td {
   padding: 10px 36px;
   border: 1px solid lightgray;
   border-collapse: collapse;
@@ -208,9 +208,9 @@ table, tr, td {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-table, .description, .features {
+.details > table, .description, .features {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 18px;
 }
 .details  h3, .description h3, .features h3 {
   margin: 20px 0 20px;
@@ -272,3 +272,20 @@ table, .description, .features {
   margin-top: 50px;
   padding-bottom: 20px;
 }
+.listingImages >button {
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.listingImages table td {
+  padding-left: 25px;
+  padding-top: 6px ;
+  padding-bottom: 6px;
+}
+.listingImages p {
+  padding: 10px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 400;
+}
+
