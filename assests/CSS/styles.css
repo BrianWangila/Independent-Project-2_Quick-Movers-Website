@@ -186,22 +186,21 @@ nav > #ul2 {
   display: flex;
 }
 .kayley > .room >.image > img {
-  height:400px ;
-  width: 600px;
+  height:450px ;
+  width: 750px;
   margin: 20px 0;
 }
 .room,  .listings{
   margin-left: 20px;
-  width: 70%;
 }
 .images > img {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 80px;
   margin-right: 10px;
 }
 .details > table, tr, td {
   padding: 10px 36px;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(233, 231, 231);
   border-collapse: collapse;
 }
 .details {
@@ -241,7 +240,7 @@ nav > #ul2 {
 }
 #form, #message {
   padding: 10px;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(248, 245, 245);
   margin: 3px 0 10px;
   border-radius: 5px;
 }
@@ -290,5 +289,6 @@ nav > #ul2 {
   border-bottom-right-radius: 15px;
   margin-top: -10px;
   padding-top: 10px;
+  margin-bottom: 10px;
 }
 
