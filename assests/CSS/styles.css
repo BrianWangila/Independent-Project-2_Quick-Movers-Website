@@ -106,6 +106,9 @@ footer {
   color: white;
   padding: 20px 0 20px;
 }
+h2, h3, h4{
+  font-weight: 500;
+}
 .head {
   font-size: larger;
   margin: 50px 0 80px 10px;
