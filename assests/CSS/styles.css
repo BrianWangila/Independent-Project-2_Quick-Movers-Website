@@ -170,16 +170,17 @@ nav > #ul2 {
 #body2 {
   background-color: rgb(233, 231, 231);
   padding: 10px 0 10px 50px;
+  align-items: center;
 }
-.kayley, .content, .viewer {
+.new, .content, .viewer {
   display: flex;
 }
-.kayley > .room >.image > img {
+.kayley > .room >.new > .image > img {
   height:450px ;
   width: 750px;
   margin: 20px 0;
 }
-.room,  .listings{
+.room,  .listings {
   margin-left: 20px;
 }
 .images > img {
@@ -211,9 +212,9 @@ svg {
   width: 10px;
   padding-right: 10px;
 }
-.kayley >.form {
-  margin: 20px;
-  margin-left: 5px;
+.kayley .form {
+  margin: 18px;
+  margin-left: 30px;
   background-color: white;
   border-radius: 15px;
   max-height: 440px;
@@ -244,13 +245,13 @@ svg {
   color: #FFAC12;
 }
 #form, #message {
-  padding: 15px;
+  padding: 17px;
   border: 1px solid rgb(248, 245, 245);
   margin: 3px 0 15px;
   border-radius: 5px;
 }
 #message {
-  padding: 30px 20px;
+  padding: 30px 15px;
 }
 #submit {
   padding: 15px;
@@ -261,6 +262,9 @@ svg {
   color: #FFAC12;
   border-top-right-radius: 15px;
 }
+/* .description, .features {
+  width: 700px;
+} */
 .description, .features, .text, .description h3, .features h3 {
   padding: 20px;
 }
@@ -359,4 +363,9 @@ footer  a {
   color: white;
   text-decoration: none;
   margin-right: 15px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 480px) {
+  .room {
+    width: 400px;
+  }
 }
