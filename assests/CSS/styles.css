@@ -26,6 +26,13 @@
    margin-right: 100px;
    color: white;
  }
+ a:link, a:visited {
+   color: white;
+   text-decoration: none;
+ }
+ a:hover {
+   color: rgb(192, 194, 89);
+ }
  nav > ul > li {
    display:inline-block;
    padding: 10px;
@@ -77,8 +84,8 @@
   border-top-right-radius: 12px;
 }
 #coach {
-  width: 350px;
-  height: 400px
+  width: 450px;
+  height: 420px
 }
 .topMovers {
   padding: 60px 60px 60px 60px;
