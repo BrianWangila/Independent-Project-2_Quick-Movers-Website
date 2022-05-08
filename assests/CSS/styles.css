@@ -216,7 +216,7 @@ svg {
   margin-left: 5px;
   background-color: white;
   border-radius: 15px;
-  max-height: 350px;
+  max-height: 440px;
 }
 .form > .inside {
   margin: 15px;
@@ -244,16 +244,16 @@ svg {
   color: #FFAC12;
 }
 #form, #message {
-  padding: 10px;
+  padding: 15px;
   border: 1px solid rgb(248, 245, 245);
-  margin: 3px 0 10px;
+  margin: 3px 0 15px;
   border-radius: 5px;
 }
 #message {
-  padding: 20px 10px;
+  padding: 30px 20px;
 }
 #submit {
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
