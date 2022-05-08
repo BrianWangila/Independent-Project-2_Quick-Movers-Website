@@ -176,23 +176,26 @@ nav > #ul2 {
   display: flex;
 }
 .kayley > .room >.new > .image > img {
-  height:450px ;
-  width: 750px;
+  height:500px ;
+  width: 800px;
   margin: 20px 0;
 }
 .room,  .listings {
   margin-left: 20px;
 }
 .images > img {
-  height: 70px;
-  width: 80px;
-  margin-right: 10px;
+  height: 80px;
+  width: 90px;
+  margin-right: 13px;
 }
 .details > table, tr, td {
-  padding: 10px 36px;
+  padding: 23px 63px;
   border: 1px solid rgb(233, 231, 231);
   border-collapse: collapse;
   font-size: small;
+}
+.white >table tr td {
+  padding: 5px 19px;
 }
 .details {
   margin-top: 25px;
@@ -217,10 +220,13 @@ svg {
   margin-left: 30px;
   background-color: white;
   border-radius: 15px;
-  max-height: 440px;
+  max-height: 500px;
 }
 .form > .inside {
   margin: 15px;
+}
+.description, .features {
+  max-width: 760px;
 }
 .form > .inside > .viewer {
   background-color: rgb(233, 231, 231);
@@ -262,9 +268,6 @@ svg {
   color: #FFAC12;
   border-top-right-radius: 15px;
 }
-/* .description, .features {
-  width: 700px;
-} */
 .description, .features, .text, .description h3, .features h3 {
   padding: 20px;
 }
@@ -363,9 +366,4 @@ footer  a {
   color: white;
   text-decoration: none;
   margin-right: 15px;
-}
-@media only screen and (min-device-width: 800px) and (max-device-width: 480px) {
-  .room {
-    width: 400px;
-  }
 }
