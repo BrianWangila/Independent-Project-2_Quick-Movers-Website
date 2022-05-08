@@ -86,8 +86,11 @@
    margin-bottom: 35px;
  }
  .topMovers h2 {
-   margin-bottom: 100px;
+   margin-bottom: 100px; 
  }
+ h2 {
+   text-decoration: overline #573c09;
+  }
 .row {
   display: flex;
 }
