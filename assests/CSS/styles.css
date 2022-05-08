@@ -48,49 +48,57 @@
   background-color: black;
   color: white;
 }
- .home {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   width: 47%;
- }
- .home > h4 {
-   color: white;
-   font-weight: 100;
-   font-size: large;
- }
- .hustle {
-   display: flex;
-   margin: 35px 0;
-   padding: 15px 0 15px;
- }
- .hustle > .hustle-text {
-   margin: 100px 30px;
-   width: 50%;
- }
- .hustle .hustle-text button {
-   margin-top: 40px;
-   color: #FAFF00;
-   background-color: black;
-   border: none;
-   padding: 12px 20px;
-   border-top-right-radius: 12px;
- }
- #coach {
-   width: 350px;
-   height: 400px
- }
- .topMovers {
-   padding: 60px 60px 40px 60px;
-   background-color: rgb(233, 231, 231);
-   margin-bottom: 35px;
- }
- .topMovers h2 {
-   margin-bottom: 100px; 
- }
- h2 {
-   text-decoration: overline #573c09;
-  }
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 47%;
+}
+.home > h4 {
+  color: white;
+  font-weight: 100;
+  font-size: large;
+}
+.hustle {
+  display: flex;
+  margin: 35px 0;
+  padding: 15px 0 15px;
+}
+.hustle > .hustle-text {
+  margin: 100px 30px;
+  width: 50%;
+}
+.hustle .hustle-text button {
+  margin-top: 40px;
+  color: #FAFF00;
+  background-color: black;
+  border: none;
+  padding: 12px 20px;
+  border-top-right-radius: 12px;
+}
+#coach {
+  width: 350px;
+  height: 400px
+}
+.topMovers {
+  padding: 60px 60px 40px 60px;
+  background-color: rgb(233, 231, 231);
+  margin-bottom: 35px;
+}
+.topMovers h2 {
+  margin-bottom: 100px; 
+}
+.listings h2, .hustle-text h2, .topMovers h2 {
+  text-decoration: overline #573c09;
+}
+hr {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  border-width: none;
+  border-color: rgb(59, 59, 59);
+}
+
 .row {
   display: flex;
 }
