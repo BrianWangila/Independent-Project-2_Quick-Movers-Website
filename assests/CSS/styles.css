@@ -140,6 +140,11 @@ footer >.head > button {
   padding: 10px 20px;
   border-top-right-radius: 12px;
 }
+footer  a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
 #column {
   padding: 0 0 0 50px;
 }
