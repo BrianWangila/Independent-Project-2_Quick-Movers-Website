@@ -106,7 +106,7 @@ footer {
   padding: 20px 70px 20px 70px;
 }
 h2, h3, h4{
-  font-weight: 500;
+  font-weight: bold;
 }
 .head {
   font-size: larger;
@@ -293,7 +293,7 @@ svg {
   padding-bottom: 20px;
 }
 .listingImages table td {
-  padding-left: 25px;
+  padding-left: 2px;
   padding-top: 6px ;
   padding-bottom: 6px;
   border: 1px solid rgb(248, 246, 246);
