@@ -73,7 +73,7 @@
 }
 .hustle > .hustle-text {
   margin: 100px 30px;
-  width: 50%;
+  width: 500px;
 }
 .hustle .hustle-text button {
   margin-top: 40px;
@@ -84,8 +84,8 @@
   border-top-right-radius: 12px;
 }
 #coach {
-  width: 450px;
-  height: 420px
+  width: 470px;
+  height: 450px
 }
 .topMovers {
   padding: 60px 60px 60px 60px;
