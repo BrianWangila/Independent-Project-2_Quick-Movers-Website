@@ -92,13 +92,18 @@
   text-decoration: overline #573c09;
 }
 hr {
-  width: 100%;
   margin-top: 20px;
   margin-bottom: -15px;
-  border-width: none;
   border-color: rgb(59, 59, 59);
 }
-
+.description hr, .features hr {
+  border-color: rgb(255, 255, 255);
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+footer hr {
+  margin-top: -55px;
+}
 .row {
   display: flex;
 }
