@@ -201,6 +201,7 @@ nav > #ul2 {
   padding: 10px 36px;
   border: 1px solid rgb(233, 231, 231);
   border-collapse: collapse;
+  font-size: small;
 }
 .details {
   margin-top: 25px;
@@ -214,6 +215,11 @@ nav > #ul2 {
   margin: 20px 0 20px;
   font-weight: 600;
   padding-left: 37px;
+}
+svg {
+  height: 10px;
+  width: 10px;
+  padding-right: 10px;
 }
 .kayley >.form {
   margin: 20px;
@@ -276,6 +282,7 @@ nav > #ul2 {
   background-color:#FFAC12;
   border: 1px solid #FFAC12;
   margin-right: 5px;
+  font-size: 10px;
 }
 .listings >.listingImages img {
   height: 160px;
@@ -305,4 +312,3 @@ nav > #ul2 {
   padding-top: 10px;
   margin-bottom: 10px;
 }
-
