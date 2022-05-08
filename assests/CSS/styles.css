@@ -94,6 +94,15 @@
 .topMovers h2 {
   margin-bottom: 100px; 
 }
+.row {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+.row button, .listings button {
+  margin-right: 20px;
+  background-color: rgb(233, 231, 231);
+}
 .movers {
   margin-bottom: 20px;
   margin-top: -10px;
@@ -120,61 +129,6 @@ hr {
   border-color: rgb(255, 255, 255);
   margin-top: -25px;
   margin-bottom: 10px;
-}
-footer hr {
-  margin-top: -55px;
-}
-.row {
-  display: flex;
-}
-.row button, .listings button {
-  margin-right: 20px;
-  background-color: rgb(233, 231, 231);
-}
-footer {
-  background-color: rgb(14, 2, 2);
-  color: white;
-  padding: 20px 70px 20px 70px;
-}
-h2, h3, h4{
-  font-weight: bold;
-}
-.head {
-  font-size: larger;
-  margin: 50px 0 80px 10px;
-}
-.contactInfo {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 50px 50px 10px;
-}
-.contactInfo > .icon {
-  display: flex;
-  align-items: center;
-}
-.contactInfo > .icon > li {
-  margin-right: 20px;
-}
-.contactInfo > .column {
-  display: flex;
-  justify-content: space-between;
-}
-footer >.head {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-}
-footer >.head > button {
-  background-color: #FFAC12;
-  margin: 0 60px;
-  padding: 10px 20px;
-  border-top-right-radius: 12px;
-}
-footer  a {
-  color: white;
-  text-decoration: none;
-  margin-right: 15px;
 }
 #column {
   padding: 0 0 0 50px;
@@ -329,7 +283,7 @@ svg {
   padding-bottom: 20px;
 }
 .listingImages table td {
-  padding-left: 2px;
+  padding-left: 3px;
   padding-top: 6px ;
   padding-bottom: 6px;
   border: 1px solid rgb(248, 246, 246);
@@ -347,4 +301,52 @@ svg {
   margin-top: -10px;
   padding-top: 10px;
   margin-bottom: 10px;
+}
+footer hr {
+  margin-top: -55px;
+}
+footer {
+  background-color: rgb(14, 2, 2);
+  color: white;
+  padding: 20px 70px 20px 70px;
+}
+h2, h3, h4{
+  font-weight: bold;
+}
+.head {
+  font-size: larger;
+  margin: 50px 0 80px 10px;
+}
+.contactInfo {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px 50px 10px;
+}
+.contactInfo > .icon {
+  display: flex;
+  align-items: center;
+}
+.contactInfo > .icon > li {
+  margin-right: 20px;
+}
+.contactInfo > .column {
+  display: flex;
+  justify-content: space-between;
+}
+footer >.head {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+footer >.head > button {
+  background-color: #FFAC12;
+  margin: 0 60px;
+  padding: 10px 20px;
+  border-top-right-radius: 12px;
+}
+footer  a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
 }
