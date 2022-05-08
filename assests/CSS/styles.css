@@ -61,7 +61,7 @@
 }
 .hustle {
   display: flex;
-  margin: 35px 0;
+  margin: 20px 0;
   padding: 15px 0 15px;
 }
 .hustle > .hustle-text {
@@ -81,9 +81,8 @@
   height: 400px
 }
 .topMovers {
-  padding: 60px 60px 40px 60px;
+  padding: 60px 60px 60px 60px;
   background-color: rgb(233, 231, 231);
-  margin-bottom: 35px;
 }
 .topMovers h2 {
   margin-bottom: 100px; 
