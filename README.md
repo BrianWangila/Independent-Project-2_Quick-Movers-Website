@@ -65,5 +65,5 @@ SOFTWARE.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Author_info
-Slack Profile - [Brian_Wangila] (brian.wanjala@student.moringaschool.com)
-github profile - [Brian_Wangila] (https://github.com/BrianWangila)
+* Slack Profile - [Brian_Wangila] (brian.wanjala@student.moringaschool.com)
+* Github profile - [Brian_Wangila] (https://github.com/BrianWangila)
