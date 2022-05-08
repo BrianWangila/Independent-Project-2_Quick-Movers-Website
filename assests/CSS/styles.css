@@ -88,6 +88,20 @@
 .topMovers h2 {
   margin-bottom: 100px; 
 }
+.movers {
+  margin-bottom: 20px;
+  margin-top: -10px;
+  background-color: white;
+  border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;
+}
+.work button table td {
+  padding: 4px 19px 4px 19px;
+  border-color: aliceblue;
+}
+.work >.row .movers p {
+  padding-top: 20px;
+  font-size: 15px;
+}
 .listings h2, .hustle-text h2, .topMovers h2 {
   text-decoration: overline #573c09;
 }
@@ -110,11 +124,6 @@ footer hr {
 .row button, .listings button {
   margin-right: 20px;
   background-color: rgb(233, 231, 231);
-}
-.work img {
-  height: 150px;
-  width: 200px;
-  margin: 10px;
 }
 footer {
   background-color: rgb(14, 2, 2);
@@ -305,7 +314,7 @@ svg {
   margin-right: 5px;
   font-size: 10px;
 }
-.listings >.listingImages img {
+.listings >.listingImages img, .work img {
   height: 160px;
   width: 220px;
 }
@@ -319,7 +328,7 @@ svg {
   padding-bottom: 6px;
   border: 1px solid rgb(248, 246, 246);
 }
-.listingImages p {
+.listingImages p, .work p {
   padding: 10px;
   text-align: left;
   margin-left: 20px;
