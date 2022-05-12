@@ -28,7 +28,7 @@ The website comprises of a landing page and a second page showing the house list
 
 ### Installation_Process
 
-* Clone the repo: git clone https://github.com/BrianWangila/Independent-Project-2.git
+* Clone the repo: git clone https://github.com/BrianWangila/Independent-Project-2_Quick-Movers-Website.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
 
