@@ -33,7 +33,7 @@ The website comprises of a landing page and a second page showing the house list
 * Open the index file from the zipped file with any browser.
 
 ### Live_link
-https://brianwangila.github.io/Independent-Project-2/
+https://brianwangila.github.io/Independent-Project-2_Quick-Movers-Website/
 
 ### Technology_used
 * HTML - Used to develop the structure of the website
